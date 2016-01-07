@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2FDD7071C3E08F300BA5B36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FDD7061C3E08F300BA5B36 /* AppDelegate.swift */; };
+		C2FDD7091C3E08F300BA5B36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FDD7081C3E08F300BA5B36 /* ViewController.swift */; };
+		C2FDD70C1C3E08F300BA5B36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2FDD70A1C3E08F300BA5B36 /* Main.storyboard */; };
+		C2FDD70E1C3E08F300BA5B36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2FDD70D1C3E08F300BA5B36 /* Assets.xcassets */; };
+		C2FDD7111C3E08F300BA5B36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2FDD70F1C3E08F300BA5B36 /* LaunchScreen.storyboard */; };
+		C2FDD71C1C3E08F300BA5B36 /* Horizon_Dating_App_Test3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FDD71B1C3E08F300BA5B36 /* Horizon_Dating_App_Test3Tests.swift */; };
+		C2FDD7271C3E08F300BA5B36 /* Horizon_Dating_App_Test3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2FDD7261C3E08F300BA5B36 /* Horizon_Dating_App_Test3UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C2FDD7181C3E08F300BA5B36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2FDD6FB1C3E08F300BA5B36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2FDD7021C3E08F300BA5B36;
+			remoteInfo = Horizon_Dating_App_Test3;
+		};
+		C2FDD7231C3E08F300BA5B36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2FDD6FB1C3E08F300BA5B36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2FDD7021C3E08F300BA5B36;
+			remoteInfo = Horizon_Dating_App_Test3;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C2FDD7031C3E08F300BA5B36 /* Horizon_Dating_App_Test3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Horizon_Dating_App_Test3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2FDD7061C3E08F300BA5B36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C2FDD7081C3E08F300BA5B36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C2FDD70B1C3E08F300BA5B36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C2FDD70D1C3E08F300BA5B36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2FDD7101C3E08F300BA5B36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C2FDD7121C3E08F300BA5B36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2FDD7171C3E08F300BA5B36 /* Horizon_Dating_App_Test3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Horizon_Dating_App_Test3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2FDD71B1C3E08F300BA5B36 /* Horizon_Dating_App_Test3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Horizon_Dating_App_Test3Tests.swift; sourceTree = "<group>"; };
+		C2FDD71D1C3E08F300BA5B36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2FDD7221C3E08F300BA5B36 /* Horizon_Dating_App_Test3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Horizon_Dating_App_Test3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2FDD7261C3E08F300BA5B36 /* Horizon_Dating_App_Test3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Horizon_Dating_App_Test3UITests.swift; sourceTree = "<group>"; };
+		C2FDD7281C3E08F300BA5B36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2FDD7001C3E08F300BA5B36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2FDD7141C3E08F300BA5B36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2FDD71F1C3E08F300BA5B36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2FDD6FA1C3E08F300BA5B36 = {
+			isa = PBXGroup;
+			children = (
+				C2FDD7051C3E08F300BA5B36 /* Horizon_Dating_App_Test3 */,
+				C2FDD71A1C3E08F300BA5B36 /* Horizon_Dating_App_Test3Tests */,
+				C2FDD7251C3E08F300BA5B36 /* Horizon_Dating_App_Test3UITests */,
+				C2FDD7041C3E08F300BA5B36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2FDD7041C3E08F300BA5B36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2FDD7031C3E08F300BA5B36 /* Horizon_Dating_App_Test3.app */,
+				C2FDD7171C3E08F300BA5B36 /* Horizon_Dating_App_Test3Tests.xctest */,
+				C2FDD7221C3E08F300BA5B36 /* Horizon_Dating_App_Test3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2FDD7051C3E08F300BA5B36 /* Horizon_Dating_App_Test3 */ = {
+			isa = PBXGroup;
+			children = (
+				C2FDD7061C3E08F300BA5B36 /* AppDelegate.swift */,
+				C2FDD7081C3E08F300BA5B36 /* ViewController.swift */,
+				C2FDD70A1C3E08F300BA5B36 /* Main.storyboard */,
+				C2FDD70D1C3E08F300BA5B36 /* Assets.xcassets */,
+				C2FDD70F1C3E08F300BA5B36 /* LaunchScreen.storyboard */,
+				C2FDD7121C3E08F300BA5B36 /* Info.plist */,
+			);
+			path = Horizon_Dating_App_Test3;
+			sourceTree = "<group>";
+		};
+		C2FDD71A1C3E08F300BA5B36 /* Horizon_Dating_App_Test3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C2FDD71B1C3E08F300BA5B36 /* Horizon_Dating_App_Test3Tests.swift */,
+				C2FDD71D1C3E08F300BA5B36 /* Info.plist */,
+			);
+			path = Horizon_Dating_App_Test3Tests;
+			sourceTree = "<group>";
+		};
+		C2FDD7251C3E08F300BA5B36 /* Horizon_Dating_App_Test3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				C2FDD7261C3E08F300BA5B36 /* Horizon_Dating_App_Test3UITests.swift */,
+				C2FDD7281C3E08F300BA5B36 /* Info.plist */,
+			);
+			path = Horizon_Dating_App_Test3UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2FDD7021C3E08F300BA5B36 /* Horizon_Dating_App_Test3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2FDD72B1C3E08F300BA5B36 /* Build configuration list for PBXNativeTarget "Horizon_Dating_App_Test3" */;
+			buildPhases = (
+				C2FDD6FF1C3E08F300BA5B36 /* Sources */,
+				C2FDD7001C3E08F300BA5B36 /* Frameworks */,
+				C2FDD7011C3E08F300BA5B36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Horizon_Dating_App_Test3;
+			productName = Horizon_Dating_App_Test3;
+			productReference = C2FDD7031C3E08F300BA5B36 /* Horizon_Dating_App_Test3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2FDD7161C3E08F300BA5B36 /* Horizon_Dating_App_Test3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2FDD72E1C3E08F300BA5B36 /* Build configuration list for PBXNativeTarget "Horizon_Dating_App_Test3Tests" */;
+			buildPhases = (
+				C2FDD7131C3E08F300BA5B36 /* Sources */,
+				C2FDD7141C3E08F300BA5B36 /* Frameworks */,
+				C2FDD7151C3E08F300BA5B36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2FDD7191C3E08F300BA5B36 /* PBXTargetDependency */,
+			);
+			name = Horizon_Dating_App_Test3Tests;
+			productName = Horizon_Dating_App_Test3Tests;
+			productReference = C2FDD7171C3E08F300BA5B36 /* Horizon_Dating_App_Test3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C2FDD7211C3E08F300BA5B36 /* Horizon_Dating_App_Test3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2FDD7311C3E08F300BA5B36 /* Build configuration list for PBXNativeTarget "Horizon_Dating_App_Test3UITests" */;
+			buildPhases = (
+				C2FDD71E1C3E08F300BA5B36 /* Sources */,
+				C2FDD71F1C3E08F300BA5B36 /* Frameworks */,
+				C2FDD7201C3E08F300BA5B36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2FDD7241C3E08F300BA5B36 /* PBXTargetDependency */,
+			);
+			name = Horizon_Dating_App_Test3UITests;
+			productName = Horizon_Dating_App_Test3UITests;
+			productReference = C2FDD7221C3E08F300BA5B36 /* Horizon_Dating_App_Test3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2FDD6FB1C3E08F300BA5B36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Jonathan Womack";
+				TargetAttributes = {
+					C2FDD7021C3E08F300BA5B36 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					C2FDD7161C3E08F300BA5B36 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = C2FDD7021C3E08F300BA5B36;
+					};
+					C2FDD7211C3E08F300BA5B36 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = C2FDD7021C3E08F300BA5B36;
+					};
+				};
+			};
+			buildConfigurationList = C2FDD6FE1C3E08F300BA5B36 /* Build configuration list for PBXProject "Horizon_Dating_App_Test3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2FDD6FA1C3E08F300BA5B36;
+			productRefGroup = C2FDD7041C3E08F300BA5B36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2FDD7021C3E08F300BA5B36 /* Horizon_Dating_App_Test3 */,
+				C2FDD7161C3E08F300BA5B36 /* Horizon_Dating_App_Test3Tests */,
+				C2FDD7211C3E08F300BA5B36 /* Horizon_Dating_App_Test3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2FDD7011C3E08F300BA5B36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2FDD7111C3E08F300BA5B36 /* LaunchScreen.storyboard in Resources */,
+				C2FDD70E1C3E08F300BA5B36 /* Assets.xcassets in Resources */,
+				C2FDD70C1C3E08F300BA5B36 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2FDD7151C3E08F300BA5B36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2FDD7201C3E08F300BA5B36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2FDD6FF1C3E08F300BA5B36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2FDD7091C3E08F300BA5B36 /* ViewController.swift in Sources */,
+				C2FDD7071C3E08F300BA5B36 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2FDD7131C3E08F300BA5B36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2FDD71C1C3E08F300BA5B36 /* Horizon_Dating_App_Test3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2FDD71E1C3E08F300BA5B36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2FDD7271C3E08F300BA5B36 /* Horizon_Dating_App_Test3UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2FDD7191C3E08F300BA5B36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2FDD7021C3E08F300BA5B36 /* Horizon_Dating_App_Test3 */;
+			targetProxy = C2FDD7181C3E08F300BA5B36 /* PBXContainerItemProxy */;
+		};
+		C2FDD7241C3E08F300BA5B36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2FDD7021C3E08F300BA5B36 /* Horizon_Dating_App_Test3 */;
+			targetProxy = C2FDD7231C3E08F300BA5B36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C2FDD70A1C3E08F300BA5B36 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2FDD70B1C3E08F300BA5B36 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C2FDD70F1C3E08F300BA5B36 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2FDD7101C3E08F300BA5B36 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2FDD7291C3E08F300BA5B36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C2FDD72A1C3E08F300BA5B36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2FDD72C1C3E08F300BA5B36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Horizon_Dating_App_Test3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ClassRoomWork.Horizon-Dating-App-Test3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C2FDD72D1C3E08F300BA5B36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Horizon_Dating_App_Test3/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ClassRoomWork.Horizon-Dating-App-Test3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C2FDD72F1C3E08F300BA5B36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Horizon_Dating_App_Test3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ClassRoomWork.Horizon-Dating-App-Test3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Horizon_Dating_App_Test3.app/Horizon_Dating_App_Test3";
+			};
+			name = Debug;
+		};
+		C2FDD7301C3E08F300BA5B36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Horizon_Dating_App_Test3Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ClassRoomWork.Horizon-Dating-App-Test3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Horizon_Dating_App_Test3.app/Horizon_Dating_App_Test3";
+			};
+			name = Release;
+		};
+		C2FDD7321C3E08F300BA5B36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Horizon_Dating_App_Test3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ClassRoomWork.Horizon-Dating-App-Test3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Horizon_Dating_App_Test3;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C2FDD7331C3E08F300BA5B36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Horizon_Dating_App_Test3UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ClassRoomWork.Horizon-Dating-App-Test3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Horizon_Dating_App_Test3;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2FDD6FE1C3E08F300BA5B36 /* Build configuration list for PBXProject "Horizon_Dating_App_Test3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2FDD7291C3E08F300BA5B36 /* Debug */,
+				C2FDD72A1C3E08F300BA5B36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2FDD72B1C3E08F300BA5B36 /* Build configuration list for PBXNativeTarget "Horizon_Dating_App_Test3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2FDD72C1C3E08F300BA5B36 /* Debug */,
+				C2FDD72D1C3E08F300BA5B36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C2FDD72E1C3E08F300BA5B36 /* Build configuration list for PBXNativeTarget "Horizon_Dating_App_Test3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2FDD72F1C3E08F300BA5B36 /* Debug */,
+				C2FDD7301C3E08F300BA5B36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C2FDD7311C3E08F300BA5B36 /* Build configuration list for PBXNativeTarget "Horizon_Dating_App_Test3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2FDD7321C3E08F300BA5B36 /* Debug */,
+				C2FDD7331C3E08F300BA5B36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2FDD6FB1C3E08F300BA5B36 /* Project object */;
+}
